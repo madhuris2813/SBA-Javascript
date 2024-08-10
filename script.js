@@ -83,7 +83,6 @@ const CourseInfo = {
         }
     }
 
-    
     if (ag.course_id !== course.id) {
         throw new Error('AssignmentGroup course_id does not match CourseInfo id');
     }
