@@ -131,7 +131,6 @@ const CourseInfo = {
         learnerData[learner_id].totalPossiblePoints += assignment.points_possible;
     });
 
-    // Calculate average and format final result
     for (const learner_id in learnerData) {
         const learner = learnerData[learner_id];
         learner.avg = learner.totalWeightedScore / learner.totalPossiblePoints;
